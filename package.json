@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@plotex/render-image": "^1.0.4",
+    "fs-extra": "^9.0.1",
+    "koa": "^2.13.0",
+    "lighthouse-benchmark": "mikolaj6r/lighthouse-benchmark",
+    "markdown-it": "^12.0.2",
+    "plot": "^1.0.6",
+    "showdown": "^1.9.1"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "server": "node server.mjs"
+  },
+  "name": "web-benchmark",
+  "author": {
+    "name": "Mikołaj Romanowski",
+    "url": "https://github.com/mikolaj6r"
+  }
+}
